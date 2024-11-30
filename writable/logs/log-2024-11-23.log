@@ -1,0 +1,85 @@
+INFO - 2024-11-23 16:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 16:48:55 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+[Method: POST, Route: register]
+in APPPATH\Models\UserModel.php on line 26.
+ 1 APPPATH\Controllers\RegisterController.php(19): App\Models\UserModel->create_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-23 16:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 16:49:37 --> TypeError: CodeIgniter\Model::insert(): Argument #2 ($returnID) must be of type bool, array given, called in C:\xampp\htdocs\Proyecto_1\app\Models\UserModel.php on line 26
+[Method: POST, Route: register]
+in SYSTEMPATH\Model.php on line 788.
+ 1 APPPATH\Models\UserModel.php(26): CodeIgniter\Model->insert('users', [...])
+ 2 APPPATH\Controllers\RegisterController.php(19): App\Models\UserModel->create_user([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RegisterController->register()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-23 16:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 16:50:54 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+[Method: POST, Route: register]
+in APPPATH\Models\UserModel.php on line 26.
+ 1 APPPATH\Controllers\RegisterController.php(19): App\Models\UserModel->create_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-23 16:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 16:55:08 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+[Method: POST, Route: register]
+in APPPATH\Models\UserModel.php on line 26.
+ 1 APPPATH\Controllers\RegisterController.php(19): App\Models\UserModel->create_user([...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RegisterController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-23 16:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 16:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 17:01:50 --> ErrorException: Undefined variable $password
+[Method: POST, Route: login]
+in APPPATH\Controllers\LoginController.php on line 24.
+ 1 APPPATH\Controllers\LoginController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password', 'C:\\xampp\\htdocs\\Proyecto_1\\app\\Controllers\\LoginController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-23 17:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-23 17:03:30 --> ErrorException: Attempt to read property "pass" on array
+[Method: POST, Route: login]
+in APPPATH\Controllers\LoginController.php on line 25.
+ 1 APPPATH\Controllers\LoginController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pass" on array', 'C:\\xampp\\htdocs\\Proyecto_1\\app\\Controllers\\LoginController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-23 17:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-23 17:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
